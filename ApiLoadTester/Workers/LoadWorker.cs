@@ -15,7 +15,7 @@ namespace Resgrid.ApiLoadTester.Workers
 	{
 		private static long _minRequestTime = -1;
 		private static long _maxRequestTime = -1;
-		private static long _averageTime = 0;
+		private static double _averageTime = 0;
 		private static int _successes = 0;
 		private static int _failures = 0;
 		private static List<Task> _workers = new List<Task>(); 
